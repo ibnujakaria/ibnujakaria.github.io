@@ -1,0 +1,21 @@
+.project {
+  border-radius: 5px !important;
+  color: white;
+  font-weight: bolder;
+  font-size: 25pt;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: block;
+  text-decoration: none;
+}
+
+.project.black {
+  background-color: rgb(50, 50, 50);
+}
+
+.project small {
+  font-size: 10pt;
+  display: inline-block;
+  text-align: right;
+}
