@@ -14,26 +14,27 @@
     <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-    <!-- Plugins CSS -->    
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
     <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">    
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-
+    
 </head> 
 
 <body class="landing-page">   
-	
-	<!-- GITHUB BUTTON JS -->
+    
+    <!-- GITHUB BUTTON JS -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-     
+    
     <!--FACEBOOK LIKE BUTTON JAVASCRIPT SDK-->
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-      fjs.parentNode.insertBefore(js, fjs);
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+        fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
     
     <div class="page-wrapper">
@@ -43,40 +44,30 @@
             <div class="container">
                 <div class="branding">
                     <h1 class="logo">
-                        <span aria-hidden="true" class="icon_documents_alt icon"></span>
-                        <span class="text-highlight">Pretty</span><span class="text-bold">Docs</span>
+                        <span class="text-highlight">Multiple</span>
+                        <span class="text-bold">Select</span>
                     </h1>
                 </div><!--//branding-->
                 <div class="tagline">
-                    <p>Free Bootstrap 4 theme for your project documentation</p>
-                    <p>Designed with <i class="fas fa-heart"></i> for developers</p>
+                    <p>Simple js library for multiple select component</p>
+                    <p>Built with <i class="fas fa-heart"></i> for developers</p>
                 </div><!--//tagline-->
                 
-	             <div class="main-search-box pt-3 pb-4 d-inline-block">
-	                 <form class="form-inline search-form justify-content-center" action="" method="get">
-	            
-			            <input type="text" placeholder="Enter search terms..." name="search" class="form-control search-input">
-			            
-			            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
-			            
-			        </form>
-	             </div>
-                 
-                <div class="social-container">
-	                <!-- Replace with your Github Button -->
-	                <div class="github-btn mb-2">
-						<a class="github-button" href="https://github.com/xriley/PrettyDocs-Theme" data-size="large" aria-label="Star xriley/PrettyDocs-Theme on GitHub">Star</a>
-                        <a class="github-button" href="https://github.com/xriley" data-size="large" aria-label="Follow @xriley on GitHub">Follow @xriley</a>
-	                </div>
-	                <!-- Replace with your Twitter Button -->
+                <div class="social-container mt-3">
+                    <!-- Replace with your Github Button -->
+                    <div class="github-btn mb-2">
+                        <a class="github-button" href="https://github.com/ibnujakaria/multiple-select-js" data-size="large" aria-label="Ibnu Jakaria/Multiple Select on Github">Star</a>
+                        <a class="github-button" href="https://github.com/ibnujakaria" data-size="large" aria-label="Follow @ibnujakaria on GitHub">Follow @ibnujakaria</a>
+                    </div>
+                    <!-- Replace with your Twitter Button -->
                     <div class="twitter-tweet">
-                        <a href="https://twitter.com/share" class="twitter-share-button" data-text="PrettyDocs - A FREE #Bootstrap theme for project documentations #Responsive" data-via="3rdwave_themes">Tweet</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-text="Simple javascript library for multiple select component :)" data-via="ibnujakaria">Tweet</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                     </div><!--//tweet-->
                     <!-- Replace with your Facebook Button -->
-                    <div class="fb-like" data-href="https://themes.3rdwavemedia.com" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>            
-                 </div><!--//social-container-->
-                 
+                    <div class="fb-like" data-href="https://ibnujakaria.github.io/multiple-select-js" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>            
+                </div><!--//social-container-->
+                
                 
             </div><!--//container-->
         </header><!--//header-->
@@ -84,13 +75,20 @@
         <section class="cards-section text-center">
             <div class="container">
                 <h2 class="title">Getting started is easy!</h2>
-                <div class="intro">
-                    <p>Welcome to prettyDocs. This landing page is an example of how you can use a card view to present segments of your documentation. You can customise the icon fonts based on your needs.</p>
-                    <div class="cta-container">
-                        <a class="btn btn-primary btn-cta" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/prettydocs-free-bootstrap-theme-for-developers-and-startups/" target="_blank"><i class="fas fa-cloud-download-alt"></i> Download Now</a>
-                    </div><!--//cta-container-->
-                </div><!--//intro-->
-                <div id="cards-wrapper" class="cards-wrapper row">
+                <div class="row justify-content-center">
+                    <div class="col-md-9">
+                        <div class="mt-3 text-left">
+                            <div>
+                                <h5>CDN</h5>
+                                <pre><code class=" language-markup">&lt;!-- CSS --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/browse/multiple-select-js@1.0.1/dist/multiple-select.css&quot;&gt;
+&lt;!-- JS --&gt;
+&lt;script src=&quot;https://unpkg.com/browse/multiple-select-js@1.0.1/dist/assets/js/multiple-select.js&quot;&gt;&lt;/script&gt;</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="cards-wrapper" class="cards-wrapper row mt-5">
                     <div class="item item-green col-lg-4 col-6">
                         <div class="item-inner">
                             <div class="icon-holder">
@@ -165,11 +163,12 @@
         </div><!--//container-->
     </footer><!--//footer-->
     
-     
+    
     <!-- Main Javascript -->          
     <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>     
-    <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>                                                                
+    <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
     
 </body>
